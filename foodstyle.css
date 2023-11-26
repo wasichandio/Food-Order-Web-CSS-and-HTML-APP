@@ -1,0 +1,259 @@
+body{
+    
+    background-image: url(background.jpg);
+}
+header{
+    display: flex;
+    background-color: rgba(39, 120, 17, 0.824);
+    
+    height: 50;
+    width: auto;
+    color: antiquewhite;
+    padding: 2%;
+    
+}
+.title1{
+    margin-right: 10%;
+}
+
+/* link of about section */
+a{color: whitesmoke;
+    text-decoration: none;
+
+}
+
+
+
+.logopng{
+    margin-right: 1%;
+    /* margin-left: 4%; */
+    /* padding-left: 5%; */
+}
+.navbar{
+    height: 30;
+    width: auto;
+    background-color: rgb(36, 59, 12);
+    display: flex;
+    padding: 1%;
+    position: sticky;
+    top: 0;
+    
+    
+}
+.navlink1{
+    height: 100%;
+    width: 100;
+    border: 2px;
+    margin-left: 2%;
+    border-radius: 2%;
+
+    /* color: whitesmoke; */
+}
+/* 
+input[type=submit]:hover {
+    background-color: #45a049;
+  } */
+/* hover */
+.nav1:hover{
+    background-color: rgb(14, 149, 149);
+    
+}
+.act.active{
+    background-color: aquamarine;
+}
+.cart{
+    float: left;
+    height: 100%;
+    width: 100;
+    margin-left: 40%;
+    border-radius: 2%;
+    color: whitesmoke;
+    
+ }
+
+.maindiv{
+    height: auto;
+    width: auto;
+    /* background-color: rgb(127, 255, 249); */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3.23%;
+    
+
+}
+.subdiv{
+    height: 230;
+    width: 245;
+    background-color: rgba(137, 43, 226, 0.306);
+    margin: 1%;
+    margin-right: 3%;
+    border-radius: 4%;
+
+}
+.maindivlogin{
+    height: 450;
+    width: 600;
+    background-color: rgb(36, 59, 12);
+    padding: 3%;
+    margin: 1%;
+    border-radius: 2%;
+}
+
+.logindiv{
+    height: 400;
+    width: 500;
+    background-color: rgba(247, 247, 247, 0.607);
+    border-radius: 1%;
+    margin-bottom: 2%;
+    margin-top: 2%;}
+    .loginh1{
+        /* margin-top: 5%; */
+        padding-top: 2%;
+        color: black;
+        text-decoration:wavy;
+    
+    }
+
+ 
+.divabout{
+    height: 70%;
+    width: 90%;
+    background-color: rgb(36, 59, 12);
+    margin: 1%;
+    display: flex;
+}
+.aboutsubdiv{
+    height: 85%;
+    width: 60%;
+    background-color: rgb(245, 245, 245);
+    margin: 2%;
+    /* margin-right: 5%; */
+
+}
+.contactdiv{
+    height: 80%;
+    width: auto;
+    background-color: rgb(36, 59, 12)   ;
+    display: flex;
+}
+.contactsubdiv{
+    height:80%;
+    width: 70%;
+    /* background-color: rgba(0, 255, 255, 0.153); */
+    margin: 2%;
+    color: whitesmoke;
+}
+
+.cateringdiv{
+    height: 80%;
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    margin: 1%;
+    
+}
+.cateringsubdiv{
+    height: 30%;
+    width: 20%;
+        background-color: rgb(36, 59, 12);
+    margin: 1%;
+    border-radius: 5%;
+    padding: 1%;
+    transition-property: width;
+transition-duration: .5s;
+}
+
+
+.cateringsubdiv:hover{
+    width: 500;}
+
+
+
+
+.productdiv{
+    height: 100%;
+    width: 98%;
+    background-color: rgba(208, 255, 0, 0.13);
+    margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2%;
+    color: whitesmoke;
+}
+.productsubdiv{
+    height: 125px;
+    width: 200px;
+    background-color: rgb(36, 59, 12);
+    margin: 2%;
+    border-radius: 55%;
+    margin-right: 6%;
+    transition-property: width;
+transition-duration: .5s;
+
+    
+}
+.productsubdiv:hover{
+    width: 200;
+height: 200;}
+
+.selectedproductdiv{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(244, 248, 248);
+    display: flex;
+}
+.selectedproductsubdiv{
+    height: 400;
+    width: 500;
+    margin: 2%;
+    /* background-color: blueviolet; */
+
+}
+.cartimg{
+    transition: transform .2s;
+}
+.cartimg:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  .wasiimg{
+    transition: transform;
+  }
+  .wasiimg:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .food1{
+    transition: transform;
+  }
+  .food1:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+  }
+  .icondiv i{
+    position: absolute;
+    padding-left: 20%;
+    padding-top: 5px;
+    size: 5%;
+  }
+  .cart{
+    display: flex;
+    width: auto;
+  }
+
+footer{
+    width: 100%;
+    background-color: rgb(136, 36, 70);
+height: 50;
+padding: 1%;
+color: whitesmoke;
+position: sticky;
+bottom: 0;
+margin-bottom: 0%;
+
+}
